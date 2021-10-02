@@ -100,7 +100,7 @@ function get(path, params, query_params_str) {
 ```
 
 
-Usage
+#### Usage
 
 ```js
 const pair = 'rvlrvn';
