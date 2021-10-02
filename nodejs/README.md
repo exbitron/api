@@ -104,7 +104,7 @@ Usage
 
 ```js
 const pair = 'rvlrvn';
-api.get("depth", {market: pair}).then(function(data){
+api.get("peatio/public/markets", {market: pair}).then(function(data){
     console.log(data);
 });
 ```
