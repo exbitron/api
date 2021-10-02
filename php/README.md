@@ -31,7 +31,8 @@ $info = json_decode($result, true);
 print_r($info);
 ```
 
-How to get OTP code 
+#### How to get OTP code 
+
 ```php
 function getCode($secret, $timeSlice = null)
 {
