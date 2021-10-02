@@ -1,6 +1,6 @@
 # Exbitron.com API examples
 
 - [PHP](/php) 
-- [RUBY](/ruby)
+- [Ruby](/ruby)
 - [NodeJS](/nodejs)
 - [Python](/python) 
