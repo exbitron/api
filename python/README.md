@@ -4,7 +4,7 @@
 
 ```
 pip install requests
-curl https://github.com/exbitron/api/raw/main/python/exbitron.py
+curl -sL https://github.com/exbitron/api/raw/main/python/exbitron.py > exbitron.py
 ```
 
 #### Usage
