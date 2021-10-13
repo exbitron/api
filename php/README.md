@@ -3,7 +3,7 @@
 #### Install
 
 ```
-curl https://github.com/exbitron/api/raw/main/php/exbitron.php
+curl -sL https://github.com/exbitron/api/raw/main/php/exbitron.php > exbitron.php
 ```
 
 #### Usage
