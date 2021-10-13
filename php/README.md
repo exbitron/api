@@ -31,7 +31,7 @@ You will need `MFA code` from your 2FA account:
 ```php
 require_once 'exbitron.php';
 
-$mfa_codey = 'MFACODE****EXAMPLE';
+$mfa_code = 'MFACODE****EXAMPLE';
 $api = new Exbitron();
 $otp = $api->get2FACode($mfa_code);
 
