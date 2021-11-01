@@ -128,7 +128,6 @@ class Client:
 
         response = requests.post(url,
             headers = headers,
-            data = params,
             timeout = self.timeout,
             verify = self.endpoint.startswith("https://")
         )
