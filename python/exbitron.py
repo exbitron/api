@@ -1,5 +1,6 @@
 import hashlib, hmac
 import requests
+import json
 
 try:
     from urllib import urlencode
@@ -126,8 +127,13 @@ class Client:
             "Connection": "close"
         }
 
+        del params['access_key']
+        del params['signature']
+        del params['nonce']
+        
         response = requests.post(url,
             headers = headers,
+            data = json.dumps(params),
             timeout = self.timeout,
             verify = self.endpoint.startswith("https://")
         )
