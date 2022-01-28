@@ -8,5 +8,5 @@ require 'openssl'
 nonce = (Time.now.to_f.round(3)*1000).to_i
 api_key = '*****'
 secret = '*****'
-OpenSSL::HMAC.hexdigest("SHA256", secret, nonce + api_key)
+OpenSSL::HMAC.hexdigest("SHA256", secret, nonce.to_s + api_key)
 ```
